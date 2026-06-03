@@ -2,9 +2,8 @@ Integrantes: Perez Luiz Alberto, Tuama Franco, Nolasco Marlon
 
 a-
 b-
-c-
-d-
-e-
+c-si se puede
+d-no, nose pierde
 e- Listado :
 
 1. BETA (marlonnoslaco) crea el repositorio de GitHub con los  README y fork.txt.
