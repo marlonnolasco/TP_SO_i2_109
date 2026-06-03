@@ -2,6 +2,34 @@ Integrantes: Perez Luiz Alberto, Tuama Franco, Nolasco Marlon
 
 a-
 b-
-c-si puede
-d-no, nose pierden.
+c-
+d-
 e-
+e- Listado :
+
+1. BETA (marlonnoslaco) crea el repositorio de GitHub con los  README y fork.txt.
+2. GAMMA realiza el Fork del repositorio desde la web y clona su copia localmente:
+   git clone https://github.com/[perezluisalberto]/TP_SO_i2_109.git
+3. ALFA realiza el Fork del repositorio y clona su copia localmente:
+   git clone https://github.com/[TuamaFranco]/TP_SO_i2_109.git
+4. GAMMA modifica el archivo fork.txt añadiendo sus datos personales, guarda los cambios y los sube a su repositorio remoto:
+   git add fork.txt
+   git commit -m "Gamma pone sus datos"
+   git push origin main
+5. ALFA edita el archivo fork.txt en su repo local con sus datos, guarda y sube el fork:
+   git add fork.txt
+   git commit -m "Datos de ALFA agregados"
+   git push origin main
+6. BETA clona su repositorio  y crea los archivos "Nuevo Dato.txt" y "respuesta_12_Equipo109.txt":
+   git clone https://github.com/marlonnoslaco/TP_SO_i2_109.git
+   git add .
+   git commit -m "beta sube archivos nuevos"
+   git push origin main
+7. Para que aparezca lo que hiz beta Alpha y gamma configuran el repositorio original como remoto (upstream) y fusionan las ramas:
+   git remote add upstream https://github.com/marlonnoslaco/TP_SO_i2_109.git
+   git fetch upstream
+   git merge upstream/main
+   git push origin main
+8. GAMMA sube las respuestas a y b y hace el pull hacia el repositorio de beta
+9. BETA acepta el Pull Request de GAMMA en GitHub, responde la c y d y lo sube con"git pull origin main".
+10. ALFA realiza un "git fetch upstream" seguido de un "git merge upstream/main" para traer todo el archivo de respuestas actualizado, añade este listado del punto e, guarda los cambios locales, los sube a su fork y emite el Pull Request final para que BETA unifique el trabajo.
