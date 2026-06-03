@@ -1,3 +1,6 @@
+Tuama Franco
+11:15 hs
+192.168.100.13
 Luis 
 Perez
 192.168.1.41/24
