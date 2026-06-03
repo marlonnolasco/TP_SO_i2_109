@@ -1,7 +1,17 @@
 Integrantes: Perez Luiz Alberto, Tuama Franco, Nolasco Marlon
 
-a-
-b-
+a- Trae los cambios del original: git fetch upstream
+    Párate en tu rama principal y fusiónalos: git checkout main
+                                              git merge upstream/main
+    Actualiza tu GitHub (tu fork en la web): git push origin main
+
+
+b- ¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Directamente de fork a fork, no se puede.Para lograrlo, hay dos caminos:
+La forma correcta: GAMMA le manda un Pull Request a BETA, BETA lo acepta, y recién ahí ALFA se actualiza desde el 
+repositorio principal de BETA (usando los comandos del punto A).El atajo: ALFA agrega el repositorio de GAMMA como 
+un remoto nuevo en su terminal usando git remote add gamma <link_de_gamma>, hace un git fetch gamma y luego un git merge.
+
 c-si se puede
 d-no, nose pierde
 e- Listado :
