@@ -2,6 +2,6 @@ Integrantes: Perez Luiz Alberto, Tuama Franco, Nolasco Marlon
 
 a-
 b-
-c-
-d-
+c-si puede
+d-no, nose pierden.
 e-
